@@ -1,0 +1,29 @@
+{
+  "title": "Toolbox \u2013 PowerShell",
+  "slug": "toolbox-powershell",
+  "role": "Author & Maintainer",
+  "stack": [
+    "PowerShell",
+    "Microsoft Graph",
+    "Intune"
+  ],
+  "dates": {
+    "start": "2025-11"
+  },
+  "summary": "Reusable PowerShell utilities for Intune and Microsoft Graph with safe placeholders (<TENANT_ID>, <CLIENT_ID>, scopes).",
+  "highlights": [
+    "Graph app auth helper with device code fallback",
+    "Export stubs for compliance and policy assignments",
+    "Report templates and simple logging utils"
+  ],
+  "links": {
+    "readme": "README.md",
+    "docs": "intune/"
+  },
+  "tags": [
+    "automation",
+    "intune",
+    "graph",
+    "powershell"
+  ]
+}
