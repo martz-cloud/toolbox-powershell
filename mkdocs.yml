@@ -1,0 +1,36 @@
+site_name: Toolbox – PowerShell
+site_description: PowerShell utilities for Intune and Microsoft Graph
+site_url: https://martz-cloud.github.io/toolbox-powershell/
+repo_name: martz-cloud/toolbox-powershell
+repo_url: https://github.com/martz-cloud/toolbox-powershell
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  language: en
+nav:
+  - Overview: index.md
+  - Auth: auth.md
+  - Intune Exports:
+      - Device Compliance: intune/device-compliance.md
+      - Policy Assignments: intune/policy-assignments.md
+  - Reports:
+      - Device Assignments: reports/device-assignments.md
+  - Utils: utils.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.highlight

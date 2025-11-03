@@ -1,0 +1,2 @@
+# Intune/Policy Assignments.Md
+
