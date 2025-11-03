@@ -18,7 +18,7 @@
   ],
   "links": {
     "readme": "README.md",
-    "docs": "intune/"
+    "docs": "https://martz-cloud.github.io/toolbox-powershell/"
   },
   "tags": [
     "automation",
